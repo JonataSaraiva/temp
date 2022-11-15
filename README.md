@@ -9,7 +9,7 @@
 - Run the command below:
   - `$ docker-compose up -d`
 - After containers are up you can deploy the API Gateway and Lambda function throught the command:
-  -`$ serverless deploy --stage local`
+  - `$ serverless deploy --stage local`
 - After it has been deployed an endpoint will be printed on console as shown on the image below, please **copy** it (it's our API gateway endpoint).
   
   ![](https://github.com/JonataSaraiva/temp/blob/main/endpoint.png)
