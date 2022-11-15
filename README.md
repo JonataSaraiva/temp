@@ -20,6 +20,8 @@ After has everything running we can execute some requests. You can find a postma
 
 **FYI**: There is a JMeter test plan in the folder **jmeter** too. I have used it to accomplish the requirement of 3 simultaneous devices sending requests to the API.
 
+#### Authentication
+For to execute a request in the API-Query is necessary sending a header called **Token** with the value **1234567**, it's just to exemplify how the security validation could be done. ( At V1 architecture I hava exemplified a new strategy using a call for a OAuth Service )
 
 ### Technical debts & Improvements
 - Improve the unit test coverage
